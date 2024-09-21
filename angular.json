@@ -25,9 +25,50 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss",
+              "src/styles.css",
+              "src/css/bootstrap.min.css",
+              "src/css/owl.carousel.min.css",
+              "src/css/magnific-popup.css",
+              "src/css/themify-icons.css",
+              "src/css/nice-select.css",
+              "src/css/flaticon.css",
+              "src/css/gijgo.css",
+              "src/css/animate.css",
+              "src/css/slicknav.css",
+              "node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+              
             ],
-            "scripts": [],
+            "scripts": [
+              "src/js/vendor/modernizr-3.5.0.min.js",
+              "src/js/vendor/jquery-1.12.4.min.js",
+              "src/js/popper.min.js",
+              "src/js/bootstrap.min.js",
+              "src/js/owl.carousel.min.js",
+              "src/js/isotope.pkgd.min.js",
+              "src/js/ajax-form.js",
+              "src/js/waypoints.min.js",
+              "src/js/jquery.counterup.min.js",
+              "src/js/imagesloaded.pkgd.min.js",
+              "src/js/scrollIt.js",
+              "src/js/jquery.scrollUp.min.js",
+              "src/js/wow.min.js",
+              "src/js/nice-select.min.js",
+              "src/js/jquery.slicknav.min.js",
+              "src/js/jquery.magnific-popup.min.js",
+              "src/js/plugins.js",
+              "src/js/gijgo.min.js",
+              "src/js/contact.js",
+              "src/js/jquery.ajaxchimp.min.js",
+              "src/js/jquery.form.js",
+              "src/js/jquery.validate.min.js",
+              "src/js/mail-script.js",
+              "src/js/main.js",
+              "src/js/slider.js",
+               "node_modules/leaflet/dist/leaflet.js",
+              "node_modules/leaflet-routing-machine/dist/leaflet-routing-machine.js"
+              
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -96,5 +137,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "174c6659-f818-4097-9ce7-af3e7f9f8efb"
   }
 }
